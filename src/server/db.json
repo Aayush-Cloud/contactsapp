@@ -1,0 +1,25 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "firstName": "Aayush",
+      "lastName": "Toni",
+      "phoneNumber": "85698563256",
+      "email": "soniaayush3@gmail.com"
+    },
+    {
+      "firstName": "Raj",
+      "lastName": "Soni",
+      "phoneNumber": "8965236589",
+      "email": "",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "firstName": "Elvi",
+      "lastName": "Soni",
+      "phoneNumber": "567890765442",
+      "email": "ssc@gmail.com"
+    }
+  ]
+}

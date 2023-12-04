@@ -1,0 +1,206 @@
+.myDiv {
+  display: flex;
+  justify-content: flex-start;
+  height: 100vh;
+  padding: 2rem;
+  background-color: white;
+  width: 55%;
+}
+.myDiv2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.myDiv3 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 30px;
+}
+.myDiv4 {
+  margin-top: 55px;
+  margin-left: 4rem;
+  flex-grow: 1;
+}
+.myDiv5 {
+  margin-bottom: 1rem;
+}
+.myDiv6 {
+  display: flex;
+  justify-content: space-between;
+  width: 162px;
+  margin-bottom: 1rem;
+}
+
+.myDiv7 {
+  color: #000;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.myButton {
+  margin-top: 0.5rem;
+  width: 171px;
+  height: 24px;
+  flex-shrink: 0;
+  border: none;
+  background-color: #EDEDED;
+  font-weight: normal;
+}
+
+.myButtonSelected {
+  background-color: #D2D2D2;
+  font-weight: 700;
+}
+.myButton2 {
+  margin-top: 0.5rem;
+  width: 171px;
+  height: 24px;
+  flex-shrink: 0;
+  border: none;
+  background-color: #E7F4E2;
+}
+
+.myButtonFilled {
+  background-color: #EDEDED;
+}
+
+
+.myLabel1 {
+  display: block;
+  margin-bottom: 1px;
+  font-weight: 700;
+  color: #000;
+  font-size: 9px;
+}
+
+.myLabel2 {
+  display: block;
+  margin-bottom: 1px;
+  font-weight: 700;
+  color: #000;
+  font-size: 9px;
+}
+.myLabel3 {
+  display: block;
+  margin-bottom: 1px;
+  font-weight: 700;
+  color: #000;
+  font-size: 9px;
+}
+.myLabel4 {
+  display: block;
+  margin-bottom: 1px;
+  font-weight: 700;
+  color: #000;
+  font-size: 9px;
+}
+
+
+
+.myInput {
+  width: 162px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #000;
+  background: rgba(217, 217, 217, 0.33);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.myInputEditable {
+  background: rgba(203, 243, 189, 0.33);
+}
+
+.myInputEditableEmpty {
+  background: rgba(189, 230, 243, 0.33);
+}
+
+.myInput2 {
+  width: 162px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #000;
+  background: rgba(217, 217, 217, 0.33);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.myInputEditable2 {
+  background: rgba(203, 243, 189, 0.33);
+}
+
+.myInputEditableEmpty2 {
+  background: rgba(189, 230, 243, 0.33);
+}
+
+.myInput3 {
+  width: 162px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #000;
+  background: rgba(217, 217, 217, 0.33);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.myInputEditable3 {
+  background: rgba(203, 243, 189, 0.33);
+}
+
+.myInputEditableEmpty3 {
+  background: rgba(189, 230, 243, 0.33);
+}
+
+.myInput4 {
+  width: 162px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #000;
+  background: rgba(217, 217, 217, 0.33);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.myInputEditableValid4 {
+  background: rgba(203, 243, 189, 0.33);
+}
+
+.myInputEditableInvalid4 {
+  background: rgba(243, 208, 189, 0.33);
+}
+
+.myInputEditableEmpty4 {
+  background: rgba(189, 230, 243, 0.33);
+}
+.myButton3 {
+  width: 56px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.50);
+  background-color: #A5A5A5;
+  color: white;
+}
+
+.myButtonFilled3 {
+  background-color: #5C5C5C;
+}
+.myButton4 {
+  width: 56px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.50);
+  background-color: white;
+  color: black;
+}
+
+.myButtonSelected4 {
+  background-color: #CF3333;
+  color: #FFFFFF;
+}
