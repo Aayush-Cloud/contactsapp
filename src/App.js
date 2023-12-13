@@ -14,6 +14,11 @@ export default function Page() {
   const isFormFilled = firstName && lastName;
   const isFormPartiallyFilled = firstName || lastName;
   const isEmailValid = email.includes('@');
+  const [resetbackgroundColor, setResetbackgroundColor] = useState(false)
+  function doresetbackgroundcolor(){
+    setResetbackgroundColor(true);
+    
+  };
 
   const toggleEdit = () => {
     if (isEditable) {
@@ -117,12 +122,12 @@ const saveContact = (event) => {
        <div className="myDiv3">
         My Contacts</div>
        {contacts.map((contact, index) => (
-        <button key={index} onClick={() => selectContact(contact)}
-    className={`myButton ${contactId === contact.id ? 'myButtonSelected' : ''}`}>
+        <button key={index} onClick={() => {selectContact(contact); setResetbackgroundColor(false);}}
+    className={`myButton ${(contactId === contact.id && resetbackgroundColor===false) ? 'myButtonSelected' : ''}`}>
     {contact.firstName} {contact.lastName}
 </button>
 ))}
-<button onClick={addNewContact} 
+<button onClick={()=>{addNewContact(); doresetbackgroundcolor();}}
     className={`myButton2 ${isFormFilled && !selectedContact ? 'myButtonFilled' : ''}`}>
     {isFormPartiallyFilled && !selectedContact ? `${firstName} ${lastName}` : '+ Add New Contact'}
 </button>
